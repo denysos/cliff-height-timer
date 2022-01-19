@@ -1,0 +1,10 @@
+{
+    "message": "hello i18n !!",
+    "title": "Cliff Height Timer",
+    "about.title": "About",
+    "about.content": "This is a very simple appication. Physics is used to compute the height of a cliff or a well",
+    "about.inspire": "This application was inspired by Youtuber Mark Rober",
+    "drawer.home": "Home",
+    "drawer.history": "History",
+    "drawer.about": "About"
+}

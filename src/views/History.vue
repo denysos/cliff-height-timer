@@ -1,0 +1,36 @@
+<template lang="">
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>temps de chute</th>
+                    <th>hauteur(m)</th>
+                    <th>hauteur(ft)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="enreg in histo" :key="enreg.time">
+                    <td> {{enreg.time}} </td>
+                    <td> {{enreg.m}} </td>
+                    <td> {{enreg.ft}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</template>
+<script>
+export default {
+  name: "history",
+  data: () => {
+    return {
+      histo: [], // charger plutôt en tant que prop en venant du menu ?
+      // ou déclenché par un computed sur un booleen ?
+    };
+  },
+  created: function () {
+    this.histo = JSON.parse(localStorage.getItem("history"));
+  },
+};
+</script>
+<style>
+</style>

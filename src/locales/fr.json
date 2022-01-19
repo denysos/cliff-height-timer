@@ -1,0 +1,10 @@
+{
+  "message": "hello i18n !!",
+  "title": "Chrono hauteur de falaise",
+  "about.title": "A propos",
+  "about.content": "Il s'agit d'une application très simple qui utilise la physique de base pour vous dire la hauteur d'une falaise ou la profondeur d'un pluits. Tout ce que vous avez à faire, c'est de compter le temps qu'il faut pour que l'objet frappe le sol et laisser la science faire le reste.",
+  "about.inspire": "Cette application a été inspirée par le YouTubeur Mark Rober.",
+  "drawer.home": "Accueil",
+  "drawer.history": "Historique",
+  "drawer.about": "A propos"
+}
