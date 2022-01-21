@@ -6,5 +6,22 @@
   "about.inspire": "Cette application a été inspirée par le YouTubeur Mark Rober.",
   "drawer.home": "Accueil",
   "drawer.history": "Historique",
-  "drawer.about": "A propos"
+  "drawer.about": "A propos",
+  "history.tb.temps": "temps de chute",
+  "history.tb.hauteurm": "hauteur(m)",
+  "history.tb.hauteurft": "hauteur(ft)",
+  "saisie.temps": "temps",
+  "saisie.hauteurm": "hauteur(m)",
+  "saisie.hauteurft": "hauteur(ft)",
+  "ajclient.titre": "Ajout Client",
+  "ajclient.prenom": "Prenom",
+  "ajclient.nom": "Nom",
+  "ajclient.dateNaisance": "Date de naissance",
+  "ajclient.libel.adresse": "Adresse",
+  "ajclient.numero": "Numero",
+  "ajclient.rue": "Rue",
+  "ajclient.codePostal": "Code postal",
+  "ajclient.ville": "Ville",
+  "listeclient.titre": "Liste des Clients"
+  
 }

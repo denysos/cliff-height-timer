@@ -1,6 +1,7 @@
 <template>
   <v-container fluid fill-height class="d-flex deep-purple lighten-1">
     <div class="home">
+      <h4>Welcome to Your Vue.js App</h4>
       <h1>{{ time }} s</h1>
       <h3>{{ m }} m</h3>
       <h3>{{ ft }} ft</h3>
@@ -20,8 +21,12 @@
 </template>
 
 <script>
+// import i18n from "../i18n";
+import { monMixin } from "../mixins";
+
 export default {
   name: "home",
+  mixins: [monMixin],
   data: () => {
     return {
       running: false,
@@ -49,6 +54,9 @@ export default {
     },
   },
   methods: {
+    // changelang(langue) {
+    //   i18n.locale = langue;
+    // },
     action() {
       // Gestion du start / stop
       this.start = new Date().getTime();

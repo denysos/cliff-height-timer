@@ -3,9 +3,9 @@
         <table>
             <thead>
                 <tr>
-                    <th>temps de chute</th>
-                    <th>hauteur(m)</th>
-                    <th>hauteur(ft)</th>
+                    <th> {{$t("history.tb.temps")}}</th>
+                    <th>{{$t("history.tb.hauteurm")}}</th>
+                    <th>{{$t("history.tb.hauteurft")}}</th>
                 </tr>
             </thead>
             <tbody>

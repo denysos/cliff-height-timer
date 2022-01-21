@@ -6,5 +6,11 @@
     "about.inspire": "This application was inspired by Youtuber Mark Rober",
     "drawer.home": "Home",
     "drawer.history": "History",
-    "drawer.about": "About"
+    "drawer.about": "About",
+    "history.tb.temps": "fall time",
+    "history.tb.hauteurm": "height(m)",
+    "history.tb.hauteurft": "height(ft)",
+    "saisie.temps": "fall time",
+    "saisie.hauteurm": "height(m)",
+    "saisie.hauteurft": "height(ft)"
 }

@@ -11,6 +11,14 @@ module.exports = {
       enableInSFC: false,
       includeLocales: false,
       enableBridge: true
+    },
+    moment: {
+      locales: [
+        'fr'
+      ]
     }
-  }
+  },
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/vuejstuto/'
+    : '/'
 }

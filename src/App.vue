@@ -9,6 +9,7 @@
   </v-app>
 </template>
 <script>
+// @ est un alias pour /src
 import myToolbar from "@/components/MyToolbar";
 export default {
   name: "app",

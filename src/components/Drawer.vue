@@ -21,17 +21,24 @@
 
 <script>
 export default {
-  name: "drawer",
+  name: "Drawer",
   data: function () {
     return {
       items: [
-        { icon: "home", text: this.$t("drawer.home"), action: "/" },
+        { icon: "mdi-home", text: this.$t("drawer.home"), action: "/" },
         {
-          icon: "history",
+          icon: "mdi-history",
           text: this.$t("drawer.history"),
           action: "/history",
         },
-        { icon: "help", text: this.$t("drawer.about"), action: "/about" },
+        {
+          icon: "mdi-plus",
+          text: "ajout histo",
+          action: "/saisiehisto",
+        },
+        { icon: "mdi-help", text: this.$t("drawer.about"), action: "/about" },
+        { icon: "mdi-store", text: "Vue Client Store", action: "/VueClient" },
+         { icon: "mdi-bank", text: "Vue Banque", action: "/banque" },
       ],
     };
   },
